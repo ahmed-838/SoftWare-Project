@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="SWE_GUI" default="default" basedir=".">
+    <description>Builds, tests, and runs the project SWE_GUI.</description>
+    <import file="nbproject/build-impl.xml"/>
+
+    <!-- Define a target for running JUnit tests -->
+    <target name="run-tests">
+        <junit>
+            <!-- Other configurations -->
+            <classpath>
+                <pathelement location="C:\junit-jupiter-api-5.11.0-M1-javadoc.jar"/>
+                <!-- Include other dependencies if needed -->
+            </classpath>
+            <!-- Other configurations -->
+        </junit>
+    </target>
+
+    <!-- Define a target for running the project -->
+    <target name="run-project" depends="run-tests">
+        <!-- Define how to run the project -->
+    </target>
+
+    <!-- Other targets and configurations -->
+</project>
